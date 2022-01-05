@@ -1,3 +1,9 @@
 [submodule "themes/toha"]
 	path = themes/toha
 	url = https://github.com/hugo-toha/toha.git
+[submodule "themes/hugo-theme-cleanwhite"]
+	path = themes/hugo-theme-cleanwhite
+	url = https://github.com/zhaohuabing/hugo-theme-cleanwhite.git
+[submodule "themes/hugo-hero-theme"]
+	path = themes/hugo-hero-theme
+	url = https://github.com/zerostaticthemes/hugo-hero-theme.git
