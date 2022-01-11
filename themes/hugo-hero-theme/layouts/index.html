@@ -24,28 +24,26 @@
 {{ $reusablePages := sort $reusablePages ".Params.weight" }}
 {{ range first 1 $reusablePages }}
 <div id="home" class="strip bg-cover bg-position-top bg-overlay" style="background-image: url('{{ .Params.background | relURL }}');">
-  <div class="container pt-17 pb-17">
+  <div class="container">
     <div class="row">
-      <div class="col-12 col-md-6 offset-md-6">
+      <div class="col-md-6">
         <h2 class="text-primary text-capitalize">{{ .Title }}</h2>
         <p>{{ .Content }}</p>
-
-        <form name="contact" method="POST" data-netlify="true">
-          <p>
-            <label>First Name: <input type="text" name="first-name" /></label>
-            <label>Last Name: <input type="text" name="last-name" /></label>
-          </p>
-          <p>
-            <label>Email: </t><input type="email" name="email" /></label>
-          </p>
-          <p>
-            <button class="button button-primary" type="submit">Get Whitepaper</button>
-          </p>
+      </div>
+      <div class="col-md-6">
+        <form name="contact" class="form" method="POST" data-netlify="true">
+          <p type="First Name:"><input type="text" name="first-name" placeholder="Write your first name here.." /></p>
+          <p type="Last Name:"><input type="text" name="last-name" placeholder="Write your family name here.." /></p>
+          <p type="Email:"><input type="email" name="email" placeholder="Let us know how to contact you.." /></p>
+          <button class="button button-primary" type="submit">Get Whitepaper</button>
         </form>
       </div>
     </div>
   </div>
 </div>
+
+
+
 {{ end }}
 
 {{ $services := where (where .Site.RegularPages "Type" "services") ".Params.featured" true }}
