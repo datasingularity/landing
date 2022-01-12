@@ -1,6 +1,6 @@
 baseURL = "https://www.datasingularity.com/"
 languageCode = "en-us"
-title = "Data Singularity Company Landing Page"
+title = "Data Singularity"
 themesDir = "themes"
 theme = "hugo-hero-theme"
 
