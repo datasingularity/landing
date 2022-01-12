@@ -2,8 +2,7 @@
 
 # Run locally:
 
-`hugo server --theme toha --watch`
-
+`hugo server`
 
 # Deploying
 
