@@ -1181,6 +1181,35 @@ mark,
   .table-responsive > .table-bordered {
     border: 0; }
 
+.img-fluid {
+  max-width: 100%;
+  height: auto; }
+
+.img-thumbnail {
+  padding: 0.25rem;
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto; }
+
+.figure {
+  display: inline-block; }
+
+.figure-img {
+  margin-bottom: 0.5rem;
+  line-height: 1; }
+
+.figure-caption {
+  font-size: 90%;
+  color: #6c757d; }
+
+.img-logo-external {
+  width: 125px;
+  /* You can set the dimensions to whatever you want */
+  height: 200px;
+  object-fit: scale-down; }
+
 .align-baseline {
   vertical-align: baseline !important; }
 
