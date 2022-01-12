@@ -1,7 +1,7 @@
 ---
 title: 'Learn More about Agile Data Management'
 weight: 1
-background: 'images/ussama-azam-ZvrD3Y3EVWI-unsplash.jpg'
+background: 'images/savannah-wakefield--lrbAsxKlws-unsplash.jpg'
 button: 'Get the Whitepaper'
 buttonLink: 'work'
 ---
