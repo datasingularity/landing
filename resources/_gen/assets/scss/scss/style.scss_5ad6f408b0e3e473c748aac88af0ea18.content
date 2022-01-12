@@ -14,7 +14,7 @@
   --gray: #6c757d;
   --gray-dark: #343a40;
   --primary: #1f2336;
-  --secondary: #5c2f1e;
+  --secondary: #4474b8;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -1023,13 +1023,13 @@ mark,
 .table-secondary,
 .table-secondary > th,
 .table-secondary > td {
-  background-color: #d1c5c0; }
+  background-color: #cbd8eb; }
 
 .table-hover .table-secondary:hover {
-  background-color: #c6b7b1; }
+  background-color: #b9cae4; }
   .table-hover .table-secondary:hover > td,
   .table-hover .table-secondary:hover > th {
-    background-color: #c6b7b1; }
+    background-color: #b9cae4; }
 
 .table-success,
 .table-success > th,
@@ -1208,12 +1208,12 @@ button.bg-primary:focus {
   background-color: #0c0e16 !important; }
 
 .bg-secondary {
-  background-color: #5c2f1e !important; }
+  background-color: #4474b8 !important; }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
 button.bg-secondary:hover,
 button.bg-secondary:focus {
-  background-color: #361b11 !important; }
+  background-color: #365d93 !important; }
 
 .bg-success {
   background-color: #28a745 !important; }
@@ -1303,7 +1303,7 @@ button.bg-dark:focus {
   border-color: #1f2336 !important; }
 
 .border-secondary {
-  border-color: #5c2f1e !important; }
+  border-color: #4474b8 !important; }
 
 .border-success {
   border-color: #28a745 !important; }
@@ -5286,10 +5286,10 @@ a.text-primary:hover, a.text-primary:focus {
   color: #0c0e16 !important; }
 
 .text-secondary {
-  color: #5c2f1e !important; }
+  color: #4474b8 !important; }
 
 a.text-secondary:hover, a.text-secondary:focus {
-  color: #361b11 !important; }
+  color: #365d93 !important; }
 
 .text-success {
   color: #28a745 !important; }
@@ -5452,7 +5452,7 @@ ol {
     width: 100%; }
 
 .footer {
-  background: #5c2f1e;
+  background: #4474b8;
   padding-top: 20px;
   padding-bottom: 20px; }
   .footer .footer-inner {
@@ -5483,19 +5483,19 @@ ol {
     .footer ul li {
       display: block;
       margin-right: 10px;
-      color: #dead9b;
+      color: #fdfdfe;
       font-size: 0.9rem;
       line-height: 1.8; }
       .footer ul li:last-of-type {
         margin-right: 0; }
       .footer ul li a {
-        color: #dead9b;
+        color: #fdfdfe;
         text-decoration: none; }
         .footer ul li a:hover {
           text-decoration: underline; }
       .footer ul li.copyright {
         font-weight: bold;
-        color: #dead9b;
+        color: #fdfdfe;
         display: none; }
         @media (min-width: 768px) {
           .footer ul li.copyright {
@@ -5517,7 +5517,7 @@ ol {
             padding: 10px 8px 10px 8px;
             font-weight: 300; } }
 .sub-footer {
-  background: #361b11;
+  background: #365d93;
   padding-top: 20px;
   padding-bottom: 20px; }
   @media (min-width: 768px) {
@@ -5538,14 +5538,14 @@ ol {
       .sub-footer .sub-footer-inner ul li {
         list-style: none;
         display: block;
-        color: #d28e74;
+        color: #d8e2f0;
         font-size: 0.9rem;
         line-height: 1.8; }
         .sub-footer .sub-footer-inner ul li strong {
           font-weight: bold;
           color: #ffffff; }
         .sub-footer .sub-footer-inner ul li a {
-          color: #d28e74;
+          color: #d8e2f0;
           text-decoration: none; }
           .sub-footer .sub-footer-inner ul li a:hover {
             text-decoration: underline; }
@@ -5898,7 +5898,7 @@ button:hover {
     font-size: 1.2rem;
     font-weight: light;
     line-height: 1.5;
-    color: #5c2f1e; }
+    color: #4474b8; }
     @media (min-width: 576px) {
       .intro p {
         width: 70%; } }
@@ -5932,16 +5932,16 @@ button:hover {
     transform: skewY(-5deg); }
 
 .strip-primary-gradient {
-  background-image: linear-gradient(to right, #1f2336, #5c2f1e); }
+  background-image: linear-gradient(to right, #1f2336, #4474b8); }
 
 .strip-primary-gradient-top-bottom {
-  background-image: linear-gradient(to bottom, #1f2336, #5c2f1e); }
+  background-image: linear-gradient(to bottom, #1f2336, #4474b8); }
 
 .strip-primary {
   background-color: #1f2336; }
 
 .strip-secondary {
-  background-color: #5c2f1e; }
+  background-color: #4474b8; }
 
 .strip-diagonal-right {
   margin-top: -100px;
@@ -5998,7 +5998,7 @@ button:hover {
     .feature .feature-content p {
       margin: 0; }
       .feature .feature-content p strong {
-        color: #5c2f1e;
+        color: #4474b8;
         text-transform: uppercase;
         font-size: 0.8rem;
         font-weight: 700; }
@@ -6087,7 +6087,7 @@ html {
   background-color: #1f2336; }
 
 .bg-secondary {
-  background-color: #5c2f1e; }
+  background-color: #4474b8; }
 
 .form {
   width: 340px;
