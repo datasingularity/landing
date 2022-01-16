@@ -1,9 +1,17 @@
 ---
-title: 'Integrated Meaning'
+title: 'Integrated Expert Knowledge'
 weight: 2
 date: 2018-12-06T09:29:16+10:00
 background: 'images/bernard-hermant-1nDW7BjBj1s-unsplash.jpg'
 align: left
 ---
 
-Traditional IT systems can only store data: bits and bytes without unambiguous meaning. The interpretation of that data is up to the human expert that is using the system. But what if that interpretation could be captured in a machine-readable way and linked to the data in the systems, so that any human - and any other system -  would be able to look at the data and understand the message it carries? And what if the "why" and "what now" of that message could be linked to the message too? In other words, is Data Singularity possible? We believe - and we have proven - that it is.
+Our unique method allows to capture the business process knowledge and integrate it into the data. Unlock self-steering process chains by combining the knowledge in the heads of your business experts and the data in your systems and feeding it to your new digital applications.
+
+Reduce dependency on human experts
+
+Unlock innovation potential
+
+Minimise the impact of regulatory changes on your processes and data
+
+Achieve AI-less smart automation on no additional cost!
