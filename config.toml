@@ -38,8 +38,8 @@ theme = "hugo-hero-theme"
     weight = 1
 
 [[menu.main]]
-    name = "Agile Data Foundation"
-    url = "/agiledata/"
+    name = "Benefits"
+    url = "/benefits/"
     weight = 1
 
 [permalinks]
