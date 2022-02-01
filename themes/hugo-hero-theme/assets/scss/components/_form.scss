@@ -1,34 +1,79 @@
-.form {
-  width: 340px;
-  height: 440px;
-  background: #e6e6e6;
-  border-radius: 8px;
-  box-shadow: 0 0 40px -10px #000;
-  padding: 20px 30px;
-  max-width: calc(100vw - 40px);
-  box-sizing: border-box;
-  font-family: $font-family-base;
-  position: relative;
+.form
+{
+    font-family: $font-family-base;
+
+    position: relative;
+
+    box-sizing: border-box;
+    width: 340px;
+    max-width: calc(100vw - 40px);
+    height: 440px;
+    padding: 20px 30px;
+
+    border-radius: 8px;
+    background: #e6e6e6;
+    box-shadow: 0 0 40px -10px #000;
 }
-input {
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
-  background: none;
-  outline: none;
-  resize: none;
-  border: 0;
-  font-family: $font-family-base;
-  transition: all 0.3s;
-  border-bottom: 2px solid #bebed2;
+input
+{
+    font-family: $font-family-base;
+
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+
+    resize: none;
+    transition: all .3s;
+
+    border: 0;
+    border-bottom: 2px solid #bebed2;
+    outline: none;
+    background: none;
 }
-input:focus {
-  border-bottom: 2px solid #78788c;
+input:focus
+{
+    border-bottom: 2px solid #78788c;
 }
-p:before {
-  content: attr(type);
-  display: block;
-  margin: 28px 0 0;
-  font-size: 14px;
-  color: #5a5a5a;
+p:before
+{
+    font-size: 14px;
+
+    display: block;
+
+    max-width: 100%;
+    margin: 28px 0 0;
+
+    content: attr(type);
+
+    color: #5a5a5a;
+}
+
+.getWhitepaper
+{
+    width: auto;
+    width: 30rem;
+
+    transform: translateX(4rem);
+
+    border-radius: 2.2rem;
+    box-shadow: 0 0 17px -2px #fff, 0 0 7px -1px rgba(0,0,0,.8), ;
+    button
+    {
+        margin: 2rem 1rem 2rem 0;
+        padding: 1rem 2rem;
+
+        transition: .4s ease all;
+        text-transform: capitalize;
+
+        border: none;
+        border-radius: 100vmax;
+        background-color: #e90;
+        &:hover
+        {
+            cursor: pointer;
+
+            background-color: #ffbe1b;
+            box-shadow: 0 0 4px rgba(0,0,0,.7);
+        }
+    }
 }

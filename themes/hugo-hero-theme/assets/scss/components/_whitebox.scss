@@ -1,10 +1,19 @@
-@mixin whitebox($padding: 10px) {
-  border: 1px solid #dcdcdc;
-  border-radius: 3px;
-  box-shadow: 0 1px 18px rgba(0, 0, 0, 0.2);
-  background: #ffffff;
-  padding: $padding;
+@mixin whitebox($padding: 10px)
+{
+    padding: $padding;
+
+    border: 1px solid #dcdcdc;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: 0 1px 18px rgba(0, 0, 0, .2);
 }
-.whitebox {
-  @include whitebox();
+.whitebox
+{
+    @include whitebox();
+}
+
+
+.getWhitepaper
+{
+    padding: 3rem;
 }
