@@ -40,3 +40,13 @@
   font-size: $figure-caption-font-size;
   color: $figure-caption-color;
 }
+
+// External Logo's need scaling
+
+.img-logo-external {
+  width: 125px; /* You can set the dimensions to whatever you want */
+  height: 200px;
+  object-fit: scale-down;
+}
+
+

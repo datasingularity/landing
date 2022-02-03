@@ -37,6 +37,11 @@ theme = "hugo-hero-theme"
     url = "/about/"
     weight = 1
 
+[[menu.main]]
+    name = "Benefits"
+    url = "/benefits/"
+    weight = 1
+
 [permalinks]
   post = "/:year/:month/:day/:slug/"
   pages = "/:filename/"
