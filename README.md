@@ -6,4 +6,4 @@
 
 # Deploying
 
-Commit your changes to `master` branch
+Merge your feature branch to `master`.
