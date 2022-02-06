@@ -1,5 +1,5 @@
 ---
-title: 'Reduced Cost of Governance'
+title: 'Data silos are not evil '
 weight: 4
 date: 2018-12-06T09:29:16+10:00
 background: 'images/bernard-hermant-1nDW7BjBj1s-unsplash.jpg'
@@ -7,10 +7,5 @@ background: 'images/bernard-hermant-1nDW7BjBj1s-unsplash.jpg'
 align: left
 ---
 
-Our method makes your data self-aware. Anything there is to know about data is accessible through the data itself - and always up to date. With our Agile Data Foundation, you will never need to spend effort on maintaining data catalogues, data glossaries, data lineage, or other data-related artefacts again. And for your next initiative, everything you need to do the impact analysis is ready and available in one click!
-
-Self-maintaining data artefacts
-
-Integration with your metadata management software of choice
-
-Full transparency of integrations.
+Data silos are an inherent part of every complex organization. Breaking them is not only expensive, but also disruptive to the business and systems alike. 
+Instead of breaking the data silos, we should break OUT of data silos - leaving each of them intact and introducing an "interpreter" that can arbitrate information exchange without disrupting business processes or systems.
