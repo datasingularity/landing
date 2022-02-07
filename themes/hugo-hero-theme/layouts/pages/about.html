@@ -7,23 +7,48 @@
 "subheading" .Params.heroSubHeading "content" .)}}
 
 {{ $headless := .Site.GetPage "/pages/about" }}
+
 {{ $subpages := $headless.Resources.ByType "page" }}
 {{ $subpages := sort $subpages ".Params.weight" }}
-{{ range $subpages }}
+{{ range $index, $subpage := $subpages }}
+
+
+{{ if eq $index 0}}
 <div class="strip bg-cover bg-position-top bg-overlay"
-  style="background-image: url('{{ .Params.background | relURL }}');">
+     style="background-image: url('{{ .Params.background | relURL }}');">
   <div class="container pt-17 pb-17">
     <div class="row">
-      <div class="col-12 col-md-6 {{ if eq .Params.align " right" }}offset-md-6{{ end }}">
-        <h2 class="text-primary text-capitalize">{{ .Title }}</h2>
-        {{ .Content }}
-        {{ if .Params.button }}
-        <a class="button" href="{{ .Params.buttonLink | relURL }}">{{ .Params.button }}</a>
-        {{ end }}
+      <div class="col-12 col-md-6 {{ if eq .Params.align "right" }}offset-md-6{{ end }}">
+      <h2 class="text-primary text-capitalize">{{ .Title }}</h2>
+      {{ .Content }}
+      <div class="list-group-flush">
+          <div class="list-group-item">Right Data In The Right Context For Each User</div>
+          <div class="list-group-item">Turning Knowledge Into Data</div>
+          <div class="list-group-item">Breaking out of data silos</div>
       </div>
     </div>
   </div>
 </div>
+</div>
+{{else}}
+<div class="strip bg-cover bg-position-top bg-overlay"
+     style="background-image: url('{{ .Params.background | relURL }}');">
+  <div class="container pt-17 pb-17">
+    <div class="row">
+      <div class="col-12 col-md-6 {{ if eq .Params.align "right" }}offset-md-6{{ end }}">
+      <h2 class="text-primary text-capitalize">{{ .Title }}</h2>
+      {{ .Content }}
+      {{ if .Params.button }}
+      <a class="button" href="{{ .Params.buttonLink | relURL }}">{{ .Params.button }}</a>
+      {{ end }}
+    </div>
+  </div>
+</div>
+</div>
+{{end}}
+
+
+
 
 {{ end }}
 

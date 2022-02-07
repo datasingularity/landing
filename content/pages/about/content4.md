@@ -3,8 +3,7 @@ title: 'Data silos are not evil '
 weight: 4
 date: 2018-12-06T09:29:16+10:00
 background: 'images/bernard-hermant-1nDW7BjBj1s-unsplash.jpg'
-
-align: left
+align: right
 ---
 
 Data silos are an inherent part of every complex organization. Breaking them is not only expensive, but also disruptive to the business and systems alike. 
