@@ -32,6 +32,10 @@ theme = "hugo-hero-theme"
     meta_twitter_site = "@tomrijntjes"
     meta_twitter_creator = "@tomrijntjes"
 
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
 
 [permalinks]
   post = "/:year/:month/:day/:slug/"
