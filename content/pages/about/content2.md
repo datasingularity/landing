@@ -3,7 +3,7 @@ title: 'Right Data in the Right Context for Each User'
 weight: 2
 date: 2018-12-06T09:29:16+10:00
 background: 'images/bernard-hermant-1nDW7BjBj1s-unsplash.jpg'
-align: left
+align: right
 ---
 
 UX is important.

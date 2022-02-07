@@ -11,4 +11,4 @@ DataSingularity is born of over 20 years of observing the companies struggle and
 
 We are a team of Enterprise Data Governance, Information Management, Data Integration, and User Experience professionals. We believe in data that is a real asset bringing real tangible revenue while keeping the total cost of ownership low. We believe in opensource, therefore the core of our solution will always be free and available for anyone to use and develop. And we believe that a delivery is worth a thousand sales presentations, therefore we are happy to demonstrate our solution on your own data, no strings attached.
 
-Our data philosophy is based on three simple principles:
+Our data philosophy prescribes three principles:

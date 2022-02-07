@@ -3,7 +3,7 @@ title: 'Turning knowledge into data'
 weight: 3
 date: 2018-12-06T09:29:16+10:00
 background: ''
-align: right
+align: left
 ---
 
 Turning data into knowledge is useful.
