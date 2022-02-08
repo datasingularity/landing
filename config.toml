@@ -10,7 +10,7 @@ theme = "hugo-hero-theme"
     min = "0.92.0"
     
 [params]
-  google_analytics_id=""
+  google_analytics_id="G-PEY32DH1C2"
 
   [params.logo]
     mobile = "images/data-singularity-logo.svg"
