@@ -17,7 +17,8 @@
 
 {{ define "main" }}
 
-{{ partial "hero-image-fullscreen.html" (dict "background" .Params.heroBackground "heading" .Params.heroHeading "subheading" .Params.heroSubHeading "content" .)}}
+{{ partial "hero-image-fullscreen.html" (dict "background" .Params.heroBackground "heading" .Params.heroHeading
+"subheading" .Params.heroSubHeading "content" .)}}
 
 {{ $headless := .Site.GetPage "/homepage" }}
 {{ $reusablePages := $headless.Resources.ByType "page" }}
@@ -50,12 +51,12 @@
 
 
 
-  <div class="container pt-17 pb-17">
-      <div class="col-md-12">
+<div class="container pt-17 pb-17">
+  <div class="col-md-12">
     <h2 class="text-primary text-capitalize">Trusted & Implemented by Industry Leaders</h2>
-        <a href="https://www.castoredc.com/"><img src="images/castor.png" class="img-logo-external" alt="Castor"></a>
-        <a href="https://www.shell.com/"><img src="images/Shell_logo.svg.png" class="img-logo-external" alt="RDS"></a>
-    </div>
+    <a href="https://www.castoredc.com/"><img src="images/castor.png" class="img-logo-external" alt="Castor"></a>
+    <a href="https://www.shell.com/"><img src="images/Shell_logo.svg.png" class="img-logo-external" alt="RDS"></a>
+  </div>
 </div>
 
 

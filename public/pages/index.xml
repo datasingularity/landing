@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Data Singularity</title>
+    <link>https://www.datasingularity.com/pages/</link>
+    <description>Recent content in Pages on Data Singularity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Dec 2018 09:29:16 +1000</lastBuildDate><atom:link href="https://www.datasingularity.com/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Solutions</title>
+      <link>https://www.datasingularity.com/solutions/</link>
+      <pubDate>Thu, 06 Dec 2018 09:29:16 +1000</pubDate>
+      
+      <guid>https://www.datasingularity.com/solutions/</guid>
+      <description>Test text</description>
+    </item>
+    
+    <item>
+      <title>Agile Data Foundation</title>
+      <link>https://www.datasingularity.com/agiledata/</link>
+      <pubDate>Thu, 06 Dec 2018 09:29:16 +1000</pubDate>
+      
+      <guid>https://www.datasingularity.com/agiledata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>History</title>
+      <link>https://www.datasingularity.com/history/</link>
+      <pubDate>Thu, 06 Dec 2018 09:29:16 +1000</pubDate>
+      
+      <guid>https://www.datasingularity.com/history/</guid>
+      <description>About Heading  Theres no limits, Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. Numquam dolores mel eu, mea docendi omittantur et, mea ea duis erat. Elit melius cu ius. Per ex novum tantas putant, ei his nullam aliquam apeirian. Aeterno quaestio constituto sea an, no eum intellegat assueverit.
+    UX is important. DUX ( Data User Experience) is even more so.</description>
+    </item>
+    
+  </channel>
+</rss>

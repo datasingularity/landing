@@ -7,7 +7,7 @@ homepage = "https://github.com/zerostaticthemes/hugo-hero-theme"
 demosite = "https://hugo-hero.netlify.app/"
 
 tags = ["responsive","minimal","clean","company","portfolio","bootstrap","zerostatic"]
-features = ["services","work","fullwidth","hero images"]
+features = ["services","solutions","fullwidth","hero images"]
 
 [author]
   name = "Robert Austin"
