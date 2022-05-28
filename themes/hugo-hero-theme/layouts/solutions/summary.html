@@ -1,0 +1,13 @@
+<div class="work work-summary">
+  {{ if .Params.thumbnail }}
+  <div class="work-image">
+    <a><img src="{{ .Params.thumbnail | relURL }}" /></a>
+  </div>
+  {{ end }}
+  <div class="work-content" align="justify">
+    <h2 class="work-title">
+      <a>{{ .Title }}</a>
+    </h2>
+    {{ .Content }}
+  </div>
+</div>
