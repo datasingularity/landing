@@ -40,3 +40,9 @@ theme = "hugo-hero-theme"
 [permalinks]
   post = "/:year/:month/:day/:slug/"
   pages = "/:filename/"
+
+[markup]
+  [markup.blackFriday]
+    extensions = [
+      "hardLineBreak", # newlines result in line breaks
+      ]
